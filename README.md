@@ -1,17 +1,17 @@
 # config-loader
 NPM Module for Environment Config Load / Optimized for Heroku
 
-###Installation
+### Installation
 ```sh
 npm install config-loader
 ```
 
-###Initialisation:
+### Initialisation
 ```javascript
 const config = require('config-loader').init('./config',ENV);
 ```
 
-###Other calls:
+### Other calls
 ```javascript
 const config = require('config-loader').getConfig();
 ```
