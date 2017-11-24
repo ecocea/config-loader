@@ -13,12 +13,12 @@ npm install config-loader
 ```javascript
 const configPath = path.join(__dirname,'./config');
 const env = process.env.environment;
-const config = require('config-loader').init(configPath, env);
+const config = require('@ecocea/config-loader').init(configPath, env);
 ```
 
 ### Other calls
 ```javascript
-const config = require('config-loader').getConfig();
+const config = require('@ecocea/config-loader').getConfig();
 ```
 
 ### Config load and Customization
@@ -30,4 +30,10 @@ const env = process.env.environment;
 const configName = "properties";
 const configSeparator = "-";
 const config = require('config-loader').init(configPath, env, configName, configSeparator);
+```
+
+### Tips for Heroku
+Avoid using too much Heroku Config Vars. If you want the ability to quickly override a config var without deploying, you can do:
+```javascript
+const myConfigVar = process.env.MY_CONFIG_VAR || 'ThisIsMyConfigVar';
 ```
