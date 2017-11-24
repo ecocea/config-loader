@@ -1,6 +1,6 @@
 {
   "name": "@ecocea/config-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NPM Module for Environment Config Load",
   "main": "config.js",
   "scripts": {
