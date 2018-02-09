@@ -4,7 +4,12 @@
  */
 
 const Config = {
-    isDev: false
+    isDev: false,
+    simpleArray: ['1','2'],
+    object: {
+        a: '1',
+        b: '2'
+    }
 };
 
 module.exports = Config;

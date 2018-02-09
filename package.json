@@ -1,6 +1,6 @@
 {
   "name": "@ecocea/config-loader",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "NPM Module for Environment Config Load",
   "main": "config.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zangdar1111/config-loader.git"
+    "url": "git+https://github.com/ecocea/config-loader.git"
   },
   "keywords": [
     "config",
@@ -17,9 +17,9 @@
   "author": "Thibault Brocheton <tbrocheton@ecocea.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zangdar1111/config-loader/issues"
+    "url": "https://github.com/ecocea/config-loader/issues"
   },
-  "homepage": "https://github.com/Zangdar1111/config-loader#readme",
+  "homepage": "https://github.com/ecocea/config-loader#readme",
   "dependencies": {
     "lodash": "4.17.4"
   }
