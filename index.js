@@ -16,6 +16,15 @@ const defaultSeparator = '_';
 
 //Module Logic
 module.exports = function (configPath, env, name, separator) {
+
+    if(!configPath) {
+        throw new Error("Missing first Arg of @ecocea/config-loader [configPath] initialisation. Must be a string representing a path.");
+    }
+
+    if(!env) {
+        throw new Error("Missing second Arg of @ecocea/config-loader [env] initialisation. Must be a string representing the configuration/environment name.");
+    }
+
     name = name || defaultName;
     separator = separator || defaultSeparator;
 
